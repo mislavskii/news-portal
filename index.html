@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
+	<meta charset="utf-8">
 	<title>Новостное агентство</title>
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
@@ -31,7 +32,7 @@
 					<form class="search" action="index.html" method="get">
 						<label for="search">Поиск по сайту</label>
 						<input type="search" id="search" name="search" placeholder="Поиск по сайту">
-						<button class="search-button" aria-label=”Найти на сайте”>
+						<button class="search-button" aria-label="Найти на сайте"></button>
 					</form>
 				</div>  <!--  /mid-header -->
 				<nav>
@@ -120,12 +121,13 @@
 			</section>
 
 			<section class="center-news">
+				<h2>Главные новости</h2>
 				<ul>
 					<li class="news-item">
 						<img src="img/crimea.png" alt="Крым.Замок Ласточкино Гнездо на фоне моря">
 						<div class="news-item-text">
 							<a href="#">
-								В Крыму отреагировали</br> на слова Кравчука</br> о возврате полуострова
+								В Крыму отреагировали<br> на слова Кравчука<br> о возврате полуострова
 							</a>
 						</div>
 						<div class="news-item-props">
@@ -188,8 +190,8 @@
 				</ul>
 			</section>
 			<aside>
-				<a href="#"><img src="img/banner-1.png"></a>
-				<a href="#"><img src="img/banner-2.png"></a>
+				<a href="#"><img src="img/banner-1.png" alt="Реклама"></a>
+				<a href="#"><img src="img/banner-2.png" alt="Реклама"></a>
 			</aside>
 			<div class="special-news">
 				<div class="news-list">
@@ -285,7 +287,14 @@
 				</ul>
 			</div>
 		</div>  <!-- центровщик -->
-		<p class="copyright">© Новостное агентство, 2017-2018 все права защищены</p>
+		<p class="copyright">
+			© Новостное агентство, 2017-2018 все права защищены
+		</p>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer" class="valid">
+			<img style="border:0;width:88px;height:31px"
+					src="http://jigsaw.w3.org/css-validator/images/vcss"
+					alt="Valid CSS!" />
+		</a>
 	</footer>
 </body>
 </html>

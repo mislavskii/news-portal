@@ -64,10 +64,11 @@ footer {
 	background-color: #00122f;
 	color: white;
 	padding-top: 56px;
+	position: relative;
 }
 
 footer nav {
-	min-height: 206px;
+	min-height: 206px;  /* footer height comes from here */
 	columns: 2;
 	width: 260px;
 	float: left;
@@ -286,6 +287,10 @@ main .fixed-container {
 	min-height: 845px;
 	margin-left: 20px;
 	float: left;
+}
+
+.center-news h2 {
+	display: none;
 }
 
 .center-news .news-item {
@@ -533,4 +538,11 @@ li.email a {	background-image: url("../img/envelope.png"); }
 	text-align: center;
 	font-size: 13px;
 	opacity: 0.6;
+}
+
+.valid {
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	display: inline-block;
 }
